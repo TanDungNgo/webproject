@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php $ma= $_GET['ma'];?>
+    <?php $email= $_GET['email'];?>
     <?php
         require_once 'connect.php';
         $sql = "select * from comment";
@@ -23,6 +24,7 @@
             <textarea name="binh_luan" placeholder="Viết bình luận"  cols="70" rows="5"></textarea>
             <br>
             <input type="hidden" name="ma" value="<?php echo $ma ?>">
+            <input type="hidden" name="email" value="<?php echo $email ?>">
             <button>
                 Gửi
             </button>
