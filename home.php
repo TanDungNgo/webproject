@@ -85,11 +85,6 @@
 	<div id="div_sua">
         <br>
         <br>
-        <button>
-            <a href="form_insert.php">
-                Thêm bài viết
-            </a>
-        </button>
         <br>
         <br>
         <table border="1" width="100%">
